@@ -6,8 +6,10 @@ Based on
 - LabStreamingLayer v1.11
 - Visual Studio 2015
 
+## Executable
 Download bin.zip from [here](https://github.com/liarosge/EPOC2LSL/releases) to get the executable.
 
+## Compile from scratch
 To compile the project you will have to
 - Include edk.lib to folders lib\win32 and lib\x64
 - Include IEegData.h (located in your emotiv premium libraries folder) to \include\emotiv folder
