@@ -10,13 +10,21 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+#emotiv premium
+/bin/win32/edk.dll
+/lib/win32/edk.lib
+/bin/x64/edk.dll
+/lib/x64/edk.lib
+/include/emotiv/IEegData.h
+
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-[Xx]64/
-[Xx]86/
+#[Xx]64/
+#[Xx]86/
 [Bb]uild/
 bld/
 [Bb]in/
