@@ -83,8 +83,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <LibraryPath>$(SolutionDir)lib\$(Platform)\;$(LibraryPath)</LibraryPath>
-    <IncludePath>$(SolutionDir)include\lsl\;$(SolutionDir)include\emotiv\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LSL_DIR)\lib\$(Platform)\;$(EDK_DIR)\lib\$(Platform)\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LSL_DIR)\include;$(EDK_DIR)\include;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)bin\$(Platform)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
